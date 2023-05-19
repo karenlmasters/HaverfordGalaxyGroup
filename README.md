@@ -11,3 +11,6 @@ Code to make plots in Masters et al. 2019 on HI-MaNGA. Mostly written by Emily H
 
 Style file for Matplotlib which may be useful (mpl_style.py) s
 
+Pipe3D_access.ipynb - example notebook to access some Pipe3D analysis of MaNGA data
+
+VAC_GZ3D_tutorial_KLMedits.ipynb - edits to the GZ3D VAC tutorial in Marvin so that it works on Sciserver.org
