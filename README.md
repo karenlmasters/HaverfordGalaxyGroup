@@ -13,3 +13,9 @@ mpl_style.py - Style file for Matplotlib which may be useful (from Coleman Krawc
 Pipe3D_access.ipynb - example notebook to access some Pipe3D analysis of MaNGA data
 
 VAC_GZ3D_tutorial_KLMedits.ipynb - edits to the GZ3D VAC tutorial in Marvin so that it works on Sciserver.org
+
+Metallicity_BinnedStatisticOverSamples.ipynb -- sample selection for spiral galaxies binned into arm winding level, loops over all galaxies in a sample and saves a metallicity trend for each. From Emmy Wisz BMC'23 senior thesis
+
+Metallicity_MassBinning_LinearRegressionFits_FitsofFits.ipynb -- mass binning within subsamples, fitting a straight line to trends. From Emmy Wisz '23 senior thesis. 
+
+RadialGradientsMaNGAEditedMar20.ipynb -- create a radial metallicity trend for one or multiple galaxies. Originally from KLM, minor changes by Emmy Wisz. 
