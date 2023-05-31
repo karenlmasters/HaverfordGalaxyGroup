@@ -1,6 +1,5 @@
 # HaverfordGalaxyGroup
 Code collaboration for the Galaxy Group at Haverford College
-Example change. 
 
 (Emily plots KLM Tweaked in HIMaNGA First Paper.ipynb) - Code to make plots in Masters et al. 2019 on HI-MaNGA. Mostly written by Emily Harrington BMC '20. 
 
