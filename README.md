@@ -19,3 +19,7 @@ Metallicity_BinnedStatisticOverSamples.ipynb -- sample selection for spiral gala
 Metallicity_MassBinning_LinearRegressionFits_FitsofFits.ipynb -- mass binning within subsamples, fitting a straight line to trends. From Emmy Wisz '23 senior thesis. 
 
 RadialGradientsMaNGAEditedMar20.ipynb -- create a radial metallicity trend for one or multiple galaxies. Originally from KLM, minor changes by Emmy Wisz. 
+
+## Group Member Respositories
+
+Masha's Spiral Arm Project Respository: https://github.com/mashakilibarda/Spiral_Arms_Mass_Project 
