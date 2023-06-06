@@ -20,6 +20,7 @@ Metallicity_MassBinning_LinearRegressionFits_FitsofFits.ipynb -- mass binning wi
 
 RadialGradientsMaNGAEditedMar20.ipynb -- create a radial metallicity trend for one or multiple galaxies. Originally from KLM, minor changes by Emmy Wisz. 
 
-## Group Member Respositories
+## Other Useful Respositories
 
+ASTR352 (Extragalactic Data Science Class) https://github.com/karenlmasters/ASTR352JupyterActivities
 Masha's Spiral Arm Project Respository: https://github.com/mashakilibarda/Spiral_Arms_Mass_Project 
