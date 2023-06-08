@@ -4,6 +4,8 @@ Code collaboration for the Galaxy Group at Haverford College
 
 ## Example Codes Either Written to help, or output of student papers
 
+* `basic_stats.py` -- Various useful statistics functions from Brooke Simmons. Includes a function to calculate proper errors on fractions, and to match two distributions (e.g. by mass). 
+
 * `Fitsinput_simpleplots.ipynb` -- Example code for how to read in a fits file, slice the data on selection from a column, make basic histograms and scatter plots. Written for mangaHIall.fits file... but should be easily modified to any .fits table.  
 
 * `FourPanelGalaxyPlot.ipynb` -- Code to make a four panel plot for a MaNGA galaxy, showing the gri image and three other MaNGA maps. 
