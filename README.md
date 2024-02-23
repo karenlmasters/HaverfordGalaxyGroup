@@ -13,6 +13,8 @@ https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/FourPanelGalaxyP
 
 *  `HIMaNGA_First_Paper_EmilyHarrington_KLM.ipynb` -- Code to make plots in Masters et al. 2019 on HI-MaNGA. Mostly written by Emily Harrington BMC '20. 
 
+* `HI-MassFraction-StellarMassPlot.ipynb` -- Simplified from above - just makes the HI mass fraction against stellar mass plot. 
+
 * `KLM_RRL_PAandLength_Notebook.ipynb` -- Rachel Langgin BMC'23 uploaded her code to measure bar position angles from GZ:3D masks  
 
 * `Metallicity_BinnedStatisticOverSamples.ipynb` -- sample selection for spiral galaxies binned into arm winding level, loops over all galaxies in a sample and saves a metallicity trend for each. From Emmy Wisz BMC'23 senior thesis
