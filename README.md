@@ -30,10 +30,12 @@ https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/FourPanelGalaxyP
 
 *  `VAC_GZ3D_tutorial_KLMedits.ipynb` -- edits to the GZ3D VAC tutorial in Marvin so that it works on Sciserver.org (by KLM)
 
+*  `Arm_Interarm_Tutorial.ipynb` -- tutorial to learn how to calculate excess in stellar mass density of spiral galaxy arms. By Maša Kilibarda '26 with edits by KLM
 
 ## Other Useful Respositories
 
 ASTR352 (Extragalactic Data Science Class) https://github.com/karenlmasters/ASTR352JupyterActivities
+
 Masha's Spiral Arm Project Respository: https://github.com/mashakilibarda/Spiral_Arms_Mass_Project 
 
 Research Group Members also might like to check out Group Google Drive, which has some more private code sharing stuff. 
