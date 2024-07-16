@@ -6,7 +6,7 @@ Code collaboration for the Galaxy Group at Haverford College
 
 * 1ADVICE.txt - advice to please read this README file! 
 
-* `Arm_Interarm_Tutorial.ipynb` - Tutorial by Masha Killibarda walking through using GZ3D to measure arm versus interarm quantities for spiral galaxies in MaNGA. 
+* [`Arm_Interarm_Tutorial.ipynb` https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/Arm_Interarm_Tutorial.ipynb] - Tutorial by Masha Killibarda walking through using GZ3D to measure arm versus interarm quantities for spiral galaxies in MaNGA. 
 
 * `basic_stats.py` -- Various useful statistics functions from Brooke Simmons. Includes a function to calculate proper errors on fractions, and to match two distributions (e.g. by mass). 
 
