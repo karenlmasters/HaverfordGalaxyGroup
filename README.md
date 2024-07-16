@@ -4,7 +4,13 @@ Code collaboration for the Galaxy Group at Haverford College
 
 ## Example Codes Either Written to help, or output of student papers
 
+* 1ADVICE.txt - advice to please read this README file! 
+
+* `Arm_Interarm_Tutorial.ipynb` - Tutorial by Masha Killibarda walking through using GZ3D to measure arm versus interarm quantities for spiral galaxies in MaNGA. 
+
 * `basic_stats.py` -- Various useful statistics functions from Brooke Simmons. Includes a function to calculate proper errors on fractions, and to match two distributions (e.g. by mass). 
+
+* `BinnedMedianExample.ipynb` - functions to apply binned statistics to data with an example use on some random data. By Emmy Wisz with some modifications from Karen Masters. 
 
 * `Fitsinput_simpleplots.ipynb` -- Example code for how to read in a fits file, slice the data on selection from a column, make basic histograms and scatter plots. Written for mangaHIall.fits file... but should be easily modified to any .fits table.  
 
