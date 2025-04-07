@@ -22,7 +22,7 @@ https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/FourPanelGalaxyP
 
 * `KLM_RRL_PAandLength_Notebook.ipynb` -- Rachel Langgin BMC'23 uploaded her code to measure bar position angles from GZ:3D masks  https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/KLM_RRL_PAandLength_Notebook.ipynb
 
-* `MaNGAGalaxyofTheDay.ipynb` -- Code by Karen Masters which mades a four panel plot of any input MaNGA galaxy. Hoping to use for a Bluesky bot for 'MaNGA galaxy of the day'. There are enough galaxies in the MaNGA sample to do this for almost 30 years. 
+* `MaNGAGalaxyofTheDay.ipynb` -- Code by Karen Masters which mades a four panel plot of any input MaNGA galaxy. Hoping to use for a Bluesky bot for 'MaNGA galaxy of the day'. There are enough galaxies in the MaNGA sample to do this for almost 30 years. https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/MaNGAGalaxyofTheDay.ipynb
 
 * `Metallicity_BinnedStatisticOverSamples.ipynb` -- sample selection for spiral galaxies binned into arm winding level, loops over all galaxies in a sample and saves a metallicity trend for each. From Emmy Wisz BMC'23 senior thesis https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/Metallicity_BinnedStatisticOverSamples.ipynb
 
