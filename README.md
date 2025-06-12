@@ -1,11 +1,11 @@
 # HaverfordGalaxyGroup
-Code collaboration for the Galaxy Group at Haverford College
+Code collaboration for the Galaxy Group at Haverford College. 
 
-
-## Example Codes Either Written to help, or output of student papers
+Warning - this README is not automatic, so sometimes there's code here which is not documented/sorted corrected. 
 
 * 1ADVICE.txt - advice to please read this README file! 
 
+## Example Codes Either Written to help, or output of student papers
 
 ### Basic Statistics/Coding Techniques
 * `BinnedMedianExample.ipynb` - functions to apply binned statistics to data with an example use on some random data. By Emmy Wisz with some modifications from Karen Masters. https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/BasicCode/BinnedMedianExample.ipynb
@@ -15,6 +15,8 @@ Code collaboration for the Galaxy Group at Haverford College
 * `basic_stats.py` -- Various useful statistics functions from Brooke Simmons. Includes a function to calculate proper errors on fractions, and to match two distributions (e.g. by mass). https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/BasicCode/basic_stats.py
 
 * `mpl_style.py` -- Style file for Matplotlib which may be useful (from Coleman Krawcyzk) https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/BasicCode/mpl_style.py
+
+* `SurvivalAnalysisTutorial.ipynb` -- Work in progress tutorial on Survival Analysis. Will likely use HI-MaNGA data as an example at some point. https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/BasicCode/SurvivalAnalysisTutorial.ipynb
 
 
 ### Working with MaNGA Data
@@ -51,11 +53,16 @@ https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/MaNGA/FourPanelG
 
 * `Model_HI_GlobalProfiles.ipynb` - Toy model for a HI global profile based on a model rotation curve and HI radial profile (by Karen Masters, with some help from Jessica Washington KNAC student summer 2021) https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/HIMaNGA/Model_HI_GlobalProfiles.ipynb
 
+* `SurvivalAnalysisTutorial.ipynb` -- Work in progress tutorial on Survival Analysis. Will likely use HI-MaNGA data as an example at some point. https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/BasicCode/SurvivalAnalysisTutorial.ipynb
 
-## Other Useful Respositories
+
+
+## Other Useful Repositories
 
 ASTR352 (Extragalactic Data Science Class) https://github.com/karenlmasters/ASTR352JupyterActivities
 
 Masha's Spiral Arm Project Respository: https://github.com/mashakilibarda/Spiral_Arms_Mass_Project 
 
 Research Group Members also might like to check out Group Google Drive, which has some more private code sharing stuff. 
+
+David Stark's survival analysis code (https://github.com/dvstark/survival/tree/main)
