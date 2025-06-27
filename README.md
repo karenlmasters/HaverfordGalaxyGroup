@@ -53,7 +53,7 @@ https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/MaNGA/FourPanelG
 
 * `Model_HI_GlobalProfiles.ipynb` - Toy model for a HI global profile based on a model rotation curve and HI radial profile (by Karen Masters, with some help from Jessica Washington KNAC student summer 2021) https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/HIMaNGA/Model_HI_GlobalProfiles.ipynb
 
-* `SurvivalAnalysisTutorial.ipynb` -- Work in progress tutorial on Survival Analysis. Will likely use HI-MaNGA data as an example at some point. https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/BasicCode/SurvivalAnalysisTutorial.ipynb
+* `SurvivalAnalysisTutorial.ipynb` -- Work in progress tutorial on Survival Analysis. Will likely use HI-MaNGA data as an example at some point. See below for instructions on how to set up a conda environment for this notebook. https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/BasicCode/SurvivalAnalysisTutorial.ipynb
 
 
 
@@ -66,3 +66,47 @@ Masha's Spiral Arm Project Respository: https://github.com/mashakilibarda/Spiral
 Research Group Members also might like to check out Group Google Drive, which has some more private code sharing stuff. 
 
 David Stark's survival analysis code (https://github.com/dvstark/survival/tree/main)
+
+## Instructions for setting up an Conda environment for survival analysis codes
+
+Note: These steps were performed using an Apply Macbook Pro with M1 processor and Sequoia 15.5
+
+0) Install R from here:
+	https://cran.rstudio.com/
+
+1) This may be optional, but here is how conda was set up in this working example:
+
+	-Install miniconda. Anaconda probably fine too, just takes longer. 
+
+	-Add conda-forge to the conda channels:
+		>> conda config --add channels conda-forge
+
+	-Install a few packages that improve conda's speed when solving environments, and improve how it handles packages installed via pip
+		>> conda install -n base conda-libmamba-solver
+		>> conda config --set solver libmamba
+		>> conda config --set pip_interop_enabled true 
+
+2) Setup new conda environment w/ some standard packages. I called my environment rpy2. We're not actually installing rpy2 yet though. Conda-forge installs an older version that seems to force use of an older version of R that's incompatible with packages we need…
+
+	>> conda create -n rpy2 python=3.12 jupyterlab numpy matplotlib lifelines fortranformat
+
+3) Activate the environment
+
+	>> conda activate rpy2
+
+4) Now, install rpy2. Set to the latest version
+
+	>> pip install rpy2==3.6.1
+
+5) Check the version of R. You can do this just by opening R and seeing what it prints. This is what I get:
+	>> R
+	R version 4.5.1 (2025-06-13) -- "Great Square Root"
+	 Copyright (C) 2025 The R Foundation for Statistical Computing
+	 Platform: aarch64-apple-darwin20
+
+
+Did not install R packages properly within python…trying inside R
+
+6) open python and import rpy2. Make sure there are no errors
+
+	>> import rpy2
