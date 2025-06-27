@@ -71,41 +71,52 @@ David Stark's survival analysis code (https://github.com/dvstark/survival/tree/m
 
 Note: These steps were performed using an Apply Macbook Pro with M1 processor and Sequoia 15.5
 
-0) Install R from here:
-	https://cran.rstudio.com/
+0.  Install R from <a href="https://cran.rstudio.com/">here</a>
 
-1) This may be optional, but here is how conda was set up in this working example:
+1. This may be optional, but here is how conda was set up in this working example:
 
-	-Install miniconda. Anaconda probably fine too, just takes longer. 
+	* Install miniconda. Anaconda probably fine too, just takes longer. 
 
-	-Add conda-forge to the conda channels:
+	* Add conda-forge to the conda channels:
+       
+        ```
 		>> conda config --add channels conda-forge
+        ```
 
-	-Install a few packages that improve conda's speed when solving environments, and improve how it handles packages installed via pip
-		>> conda install -n base conda-libmamba-solver
+	* Install a few packages that improve conda's speed when solving environments, and improve how it handles packages installed via pip
+		
+        ```
+        >> conda install -n base conda-libmamba-solver
 		>> conda config --set solver libmamba
 		>> conda config --set pip_interop_enabled true 
+        ```
 
-2) Setup new conda environment w/ some standard packages. I called my environment rpy2. We're not actually installing rpy2 yet though. Conda-forge installs an older version that seems to force use of an older version of R that's incompatible with packages we need…
+2. Setup new conda environment w/ some standard packages. I called my environment rpy2. We're not actually installing rpy2 yet though. Conda-forge installs an older version that seems to force use of an older version of R that's incompatible with packages we need…
 
+    ```
 	>> conda create -n rpy2 python=3.12 jupyterlab numpy matplotlib lifelines fortranformat
+    ```
 
-3) Activate the environment
+3. Activate the environment
 
+    ```
 	>> conda activate rpy2
+    ```
 
-4) Now, install rpy2. Set to the latest version
+4. Now, install rpy2. Set to the latest version, e.g.,
 
+    ```
 	>> pip install rpy2==3.6.1
+    ```
 
-5) Check the version of R. You can do this just by opening R and seeing what it prints. This is what I get:
+5. Check the version of R. You can do this just by opening R and seeing what it prints:
+
+    ```
 	>> R
 	R version 4.5.1 (2025-06-13) -- "Great Square Root"
 	 Copyright (C) 2025 The R Foundation for Statistical Computing
 	 Platform: aarch64-apple-darwin20
-
-
-Did not install R packages properly within python…trying inside R
+    ```
 
 6) open python and import rpy2. Make sure there are no errors
 
