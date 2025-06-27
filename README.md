@@ -75,7 +75,7 @@ Note: These steps were performed using an Apply Macbook Pro with M1 processor an
 
 1. This may be optional, but here is how conda was set up in this working example:
 
-	* Install miniconda. Anaconda probably fine too, just takes longer. 
+	* Install <a href="https://www.anaconda.com/docs/getting-started/miniconda/install">miniconda</a>. Anaconda is probably fine too, just takes longer. 
 
 	* Add conda-forge to the conda channels:
        
@@ -119,5 +119,6 @@ Note: These steps were performed using an Apply Macbook Pro with M1 processor an
     ```
 
 6) open python and import rpy2. Make sure there are no errors
-
-	>> import rpy2
+    ```
+	import rpy2
+    ```
