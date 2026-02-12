@@ -36,6 +36,9 @@ https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/MaNGA/FourPanelG
 * `Radial_Metallicity_Rainbow_ex.ipynb` - the rainbow plot of metallicity trends in bins of galaxy stellar mass. From Emmy Wisz. https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/MaNGA/Radial_Metallicity_Rainbow_ex.ipynb
 
 
+#### Working with Galaxy Zoo
+* `LaurenKocurek_GZ_SGAplots.ipynb` -- code by Lauren Kocurek'27 from Summer2025 in the group showing how to match the Sienna Galaxy Atlas with GZDESI (LSDR8) Zoobot predictions of morphology. https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/GalaxyZoo/LaurenKocurek_GZ_SGAplots.ipynb
+
 #### Working with Galaxy Zoo 3D Masks (and MaNGA Data)
 *  `VAC_GZ3D_tutorial_KLMedits.ipynb` -- edits to the GZ3D VAC tutorial in Marvin so that it works on Sciserver.org (by KLM) https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/GZ3D/VAC_GZ3D_tutorial_KLMedits.ipynb
 
