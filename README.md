@@ -8,15 +8,15 @@ Warning - this README is not automatic, so sometimes there's code here which is 
 ## Example Codes Either Written to help, or output of student papers
 
 ### Basic Statistics/Coding Techniques
-* `BinnedMedianExample.ipynb` - functions to apply binned statistics to data with an example use on some random data. By Emmy Wisz with some modifications from Karen Masters. https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/BasicCode/BinnedMedianExample.ipynb
+* `BinnedMedianExample.ipynb` - functions to apply binned statistics to data with an example use on some random data. By Emmy Wisz with some modifications from Karen Masters. https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/BasicCode_Statistics/BinnedMedianExample.ipynb
 
-* `Fitsinput_simpleplots.ipynb` -- Example code for how to read in a fits file, slice the data on selection from a column, make basic histograms and scatter plots. Written for mangaHIall.fits file... but should be easily modified to any .fits table.  https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/BasicCode/Fitsinput_simpleplots.ipynb
+* `Fitsinput_simpleplots.ipynb` -- Example code for how to read in a fits file, slice the data on selection from a column, make basic histograms and scatter plots. Written for mangaHIall.fits file... but should be easily modified to any .fits table.  https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/BasicCode_Statistics/Fitsinput_simpleplots.ipynb
 
-* `basic_stats.py` -- Various useful statistics functions from Brooke Simmons. Includes a function to calculate proper errors on fractions, and to match two distributions (e.g. by mass). https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/BasicCode/basic_stats.py
+* `basic_stats.py` -- Various useful statistics functions from Brooke Simmons. Includes a function to calculate proper errors on fractions, and to match two distributions (e.g. by mass). https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/BasicCode_Statistics/basic_stats.py
 
-* `mpl_style.py` -- Style file for Matplotlib which may be useful (from Coleman Krawcyzk) https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/BasicCode/mpl_style.py
+* `mpl_style.py` -- Style file for Matplotlib which may be useful (from Coleman Krawcyzk) https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/BasicCode_Statistics/mpl_style.py
 
-* `SurvivalAnalysisTutorial.ipynb` -- Work in progress tutorial on Survival Analysis. Will likely use HI-MaNGA data as an example at some point. https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/BasicCode/SurvivalAnalysisTutorial.ipynb
+* `SurvivalAnalysisTutorial.ipynb` -- Work in progress tutorial on Survival Analysis. Will likely use HI-MaNGA data as an example at some point. https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/BasicCode_Statistics/SurvivalAnalysisTutorial.ipynb
 
 
 ### Working with MaNGA Data
@@ -34,6 +34,8 @@ https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/MaNGA/FourPanelG
 * `Metallicity_MassBinning_LinearRegressionFits_FitsofFits.ipynb` -- mass binning within subsamples, fitting a straight line to trends. From Emmy Wisz '23 senior thesis. https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/MaNGA/Metallicity_MassBinning_LinearRegressionFits_FitsofFits.ipynb
 
 * `Radial_Metallicity_Rainbow_ex.ipynb` - the rainbow plot of metallicity trends in bins of galaxy stellar mass. From Emmy Wisz. https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/MaNGA/Radial_Metallicity_Rainbow_ex.ipynb
+
+* `The HI Content of Red Spiral Galaxies in the MaNGA Sample.ipynb` - Notebook by Caroline Teal '29 exploring how to best identify red spirals in the MaNGA sample. https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/MaNGA/The HI Content of Red Spiral Galaxies in the MaNGA Sample.ipynb
 
 
 #### Working with Galaxy Zoo
