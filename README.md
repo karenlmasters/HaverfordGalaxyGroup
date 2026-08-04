@@ -35,7 +35,7 @@ https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/MaNGA/FourPanelG
 
 * `Radial_Metallicity_Rainbow_ex.ipynb` - the rainbow plot of metallicity trends in bins of galaxy stellar mass. From Emmy Wisz. https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/MaNGA/Radial_Metallicity_Rainbow_ex.ipynb
 
-* `The HI Content of Red Spiral Galaxies in the MaNGA Sample.ipynb` - Notebook by Caroline Teal '29 exploring how to best identify red spirals in the MaNGA sample. https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/MaNGA/The HI Content of Red Spiral Galaxies in the MaNGA Sample.ipynb
+* `The HI Content of Red Spiral Galaxies in the MaNGA Sample.ipynb` - Notebook by Caroline Teal '29 exploring how to best identify red spirals in the MaNGA sample. https://github.com/karenlmasters/HaverfordGalaxyGroup/blob/main/MaNGA/The_HI_Content_of_Red_Spiral_Galaxies_in_the_MaNGA_Sample.ipynb
 
 
 #### Working with Galaxy Zoo
